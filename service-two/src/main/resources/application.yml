@@ -1,0 +1,10 @@
+server:
+  context-path: /service-two
+  port: 8002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/eureka/
+spring:
+  application:
+    name: service-two
